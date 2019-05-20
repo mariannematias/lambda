@@ -1,0 +1,22 @@
+{
+    "site_name": "Lambda",
+    "img_logo": "https://lh3.googleusercontent.com/Vehm-9EUP9wYwE6Fvoq5CyInZ5P25_cD-oxyaXJT8gh3mpxTtjhkMmLBnZVeA-HVuMgOs5ANhqczu83w7IeiAHGB4A",
+    "header_nav": {
+        "courses": {
+            "text": "Courses"
+        },
+        "about": {
+            "text": "About"
+        },
+        "employers": {
+            "text": "Employers"
+        },
+        "blog": {
+            "text": "Blog"
+        },
+        "apply": {
+            "text": "Apply Now"
+        }
+    }
+
+}

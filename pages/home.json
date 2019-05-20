@@ -1,0 +1,32 @@
+{
+    "hero_section": {
+        "title": "A Revolutionary New School That Invests in You",
+        "description": "Lambda School is a 9 month, immersive program that gives you the tools and training you need to launch your new career—from the comfort of your own home.",
+        "btn_text": "See how it works",
+        "btn_color": "darkred"
+    },
+    "section1": {
+        "lists": {
+            "list1": {
+                "img_list": "images/icon.png",
+                "title": "Live Classes From Anywhere",
+                "subtitle": "Take live, structured classes from the convenience of wherever, with instant, one-on-one help whenever you need it."
+            },
+            "list2": {
+                "img_list": "images/icon1.png",
+                "title": "World-Class Instructional Staff",
+                "subtitle": "We built a curriculum with hands-on, real-world experience taught by instructors from Google, Apple, Blizzard, and more."
+            },
+            "list3": {
+                "img_list": "images/icon2.png",
+                "title": "Pay Nothing Until You Make It",
+                "subtitle": "No loans, no debt, and no up-front tuition. You'll pay a percentage of income after you're hired, but only if you're making at least $50k/year."
+            }
+        }
+    },
+    "section2": {
+        "title": "An Education That Banks On You",
+        "description": "We believe that education should invest in you, not the other way around. As a Lambda student, you pay nothing until you’re earning $50k or more. And if you don’t, it’s free.",
+        "img_text": "I never thought I was the type that could land a high-paying tech job, but I just accepted a high-paying job as a software engineer. And I haven’t paid Lambda School anything so far."
+    }
+}

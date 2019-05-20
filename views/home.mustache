@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	{{>head}}
+  	</head>
+
+	<body>
+
+		{{>header}}
+
+		<div class="container">
+			<section class="hero">
+				<div class="row">
+					<div class="col-md-7 col-sm-12 section-title">
+						<h1 class="m-top-4">{{page.hero_section.title}}</h1>
+						<p class="sub m-top-1">{{page.hero_section.description}}</p>
+						<p><a href="#"><button class="btn btn-md" style="background-color: {{page.hero_section.btn_color}}">{{page.hero_section.btn_text}}</button></a>
+					</div>
+				</div>
+				<div class="banner-img">
+					<div class="left"></div>
+					<div class="right"></div>
+				</div>
+			</section>
+		</div>
+
+		<section class="section1">
+			<div class="row">
+				<div class="col-md-4 col-sm-12 list align-center">
+					<img src="{{{page.section1.lists.list1.img_list}}}">
+					<h3>{{page.section1.lists.list1.title}}</h3>
+					<p>{{page.section1.lists.list1.subtitle}}</p>
+				</div>
+				<div class="col-md-4 col-sm-12 list align-center">
+					<img src="{{{page.section1.lists.list2.img_list}}}">
+					<h3>{{page.section1.lists.list2.title}}</h3>
+					<p>{{page.section1.lists.list2.subtitle}}</p>
+				</div>
+				<div class="col-md-4 col-sm-12 list align-center">
+					<img src="{{{page.section1.lists.list3.img_list}}}">
+					<h3>{{page.section1.lists.list3.title}}</h3>
+					<p>{{page.section1.lists.list3.subtitle}}</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="container">
+			<section class="section2">
+				<div class="row">
+					<div class="col-md-6 col-sm-12 align-center img-text">
+						<img src="images/team.jpg"/>
+						<p class="text-overlay">"{{page.section2.img_text}}"<span>— Joram Clervius, Full Stack Web Track</span></p>
+					</div>
+					<div class="col-md-6 col-sm-12 section-title">
+						<h1 class="m-top-4">{{page.section2.title}}</h1>
+						<p class="sub m-top-1">{{page.section2.description}}</p>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		{{>footer}}
+
+		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+		{{>scripts}}
+	</body>
+</html>
