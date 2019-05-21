@@ -17,6 +17,8 @@
         "apply": {
             "text": "Apply Now"
         }
+    },
+    "footer": {
+        "links": [{"text": "Courses"}, {"text": "About"}, {"text": "Blog"}, {"text": "Apply"}, {"text": "Careers"}, {"text": "Legal"}, {"text": "Contact"}, {"text": "Free Code Bootcamp"}, {"text": "Referral"}]
     }
-
 }

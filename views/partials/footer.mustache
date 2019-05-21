@@ -1,12 +1,14 @@
-<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="">
-		<meta name="author" content="">
-
-		<title>{{global.site_name}}</title>
-
-		<link href="/css/bootstrap.min.css" rel="stylesheet">
-		<link href="/css/style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<footer>
+	<div class="container align-center">
+		<ul class="footer-links">
+			{{#global.footer.links}}
+				<li><a href="#">{{text}}</a></li>
+			{{/global.footer.links}}
+			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+			<li><a href="#"><i class="fab fa-github"></i></a></li>
+		</ul>
+	
+		<p><img class="logo" src="{{{global.img_logo}}}" alt=""><span>{{global.site_name}}</span></p>
+	</div>
+</footer>
