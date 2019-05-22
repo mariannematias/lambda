@@ -222,8 +222,7 @@ h1.section-head {
     background: linear-gradient(rgb(255, 255, 255), rgb(242, 244, 247));
 }
 .section3 {
-    padding: 6rem 0 8rem;
-    padding-left: 100px;
+    padding: 6rem 100px 8rem;
     position: relative;
 }
 .section3 .section-head {
