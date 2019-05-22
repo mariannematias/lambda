@@ -1,12 +1,41 @@
 <footer>
 	<div class="container align-center">
 		<ul class="footer-links">
-			{{#global.footer.links}}
-				<li><a href="#">{{text}}</a></li>
-			{{/global.footer.links}}
-			<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-			<li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-			<li><a href="#"><i class="fab fa-github"></i></a></li>
+			{{#global.footer.facebook.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.facebook.url}}}"><i class="fab fa-{{global.footer.facebook.name}}"></i></a>
+				</li>
+			{{/global.footer.facebook.show_or_hide}}
+
+			{{#global.footer.twitter.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.twitter.url}}}"><i class="fab fa-{{global.footer.twitter.name}}"></i></a>
+				</li>
+			{{/global.footer.twitter.show_or_hide}}
+
+			{{#global.footer.github.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.github.url}}}"><i class="fab fa-{{global.footer.github.name}}"></i></a>
+				</li>
+			{{/global.footer.github.show_or_hide}}
+
+			{{#global.footer.linkedin.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.linkedin.url}}}"><i class="fab fa-{{global.footer.linkedin.name}}"></i></a>
+				</li>
+			{{/global.footer.linkedin.show_or_hide}}
+
+			{{#global.footer.youtube.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.youtube.url}}}"><i class="fab fa-{{global.footer.youtube.name}}"></i></a>
+				</li>
+			{{/global.footer.youtube.show_or_hide}}
+
+			{{#global.footer.instagram.show_or_hide}}
+				<li>
+					<a href="{{{global.footer.instagram.url}}}"><i class="fab fa-{{global.footer.instagram.name}}"></i></a>
+				</li>
+			{{/global.footer.instagram.show_or_hide}}
 		</ul>
 	
 		<p><img class="logo" src="{{{global.img_logo}}}" alt=""><span>{{global.site_name}}</span></p>

@@ -19,6 +19,35 @@
         }
     },
     "footer": {
-        "links": [{"text": "Courses"}, {"text": "About"}, {"text": "Blog"}, {"text": "Apply"}, {"text": "Careers"}, {"text": "Legal"}, {"text": "Contact"}, {"text": "Free Code Bootcamp"}, {"text": "Referral"}]
+        "facebook": {
+            "name": "facebook",
+            "url": "https://www.facebook.com",
+            "show_or_hide": true
+          },
+          "twitter": {
+            "name": "twitter",
+            "url": "https://www.twitter.com",
+            "show_or_hide": true
+          },
+          "github": {
+            "name": "github",
+            "url": "https://www.hithub.com",
+            "show_or_hide": true
+          },
+          "linkedin": {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com",
+            "show_or_hide": true
+          },
+          "youtube": {
+            "name": "youtube",
+            "url": "https://www.youtube.com",
+            "show_or_hide": true
+          },
+          "instagram": {
+            "name": "instagram",
+            "url": "https://www.instagram.com",
+            "show_or_hide": true
+          }
     }
 }

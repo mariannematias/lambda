@@ -1,0 +1,31 @@
+.container-post {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.post {
+    padding: 2rem 1rem 1rem;
+    border-bottom: 1px solid #bb1333;
+}
+.post:last-child {
+    margin-bottom: 10rem;
+}
+.post h4 {
+   padding: 1rem 0;
+}
+.post-single h2 {
+    font-weight: 600;
+    padding: 1rem 0;
+}
+.post-single p img {
+    padding: 1rem 0;
+}
+.post-single .content {
+    padding: 1rem 0 10rem;
+}
+
+@media (max-width: 576px) {
+    .container-post {
+        padding: 0 1rem;
+    }
+}

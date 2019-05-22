@@ -33,10 +33,15 @@
     "section3": {
         "title": "Lambda, Live From Anywhere",
         "description": "Lambda classes happen live, every weekday from 8 a.m. to 5 p.m. Pacific. The rigorous curriculum is designed to provide the real-world, career-oriented skills you'll need in a future career, as well as instant, one-on-one help whenever you need it.",
-        "img_section": "images/slack-min.gif"
+        "img_section": "https://storage.turbo360.co/lambda-c7cyas/slack-min.gif"
     },
     "section4": {
-        "img_icon": "https://lh3.googleusercontent.com/KkNXMQADNRIN6M1cs_Fo9kHAwGs4VrJ4pWBUNxPmWWJq-i4-OWOiXPRMdFq43YmtsDb1dqLW8-cOhDXOAHNwzQ3tMaE",
+        "img_list": {
+            "img1": "https://lh3.googleusercontent.com/a-wSxUUZD1LAkaQI_YhK69ra_4GyZIfpWxc5R72asLmZmr7Y0vL4DFOsLwP8yG4rluD-j0IDtNfq2ITYk3Pynxzu5Q",
+            "img2": "https://lh3.googleusercontent.com/28PSOolr_9Yl6rhuKe4AtbL0WQFF7Uhnm5gTpBtHvqyf62NFDUEVerznI43o7LU4b-AOXlyouN3bgboN9mvqHEgk",
+            "img3": "https://lh3.googleusercontent.com/a1rdpAxUs0ZmIYFCS3Gh-_8IT74hbqO7fnDMbXW2SfGxLXguZyJ1JjbztqECUxHt7UV5C1kY4G80OJy0VEAvOKxTYQQ"
+        },
+        "img_icon1": "https://lh3.googleusercontent.com/KkNXMQADNRIN6M1cs_Fo9kHAwGs4VrJ4pWBUNxPmWWJq-i4-OWOiXPRMdFq43YmtsDb1dqLW8-cOhDXOAHNwzQ3tMaE",
         "title": "Not Your Average Instructors. Not Your Average Students.",
         "description": "Lambda School's instructional staff hail from the top companies and universities in the world."
     },
@@ -47,7 +52,7 @@
     "section6": {
         "title": "Meet Some of our Industry Partners",
         "description": "When you succeed, so do we. We partner with some of the best technology companies in the world to advise us on curriculum, help certify our students for graduation from Lambda School, and get warm introductions to our students that are ready for jobs.",
-        "img_logos": "https://lh3.googleusercontent.com/eari0HxBIjlxo_7SSK0te59PwDK4NtxPU_Y8s5cS6uRroFONB4kqhqk-livrPzDMtFU3PopKgr6ZWOYpqKMghtJtVw"
+        "img_logos": "https://lh3.googleusercontent.com/iBZOFRpUKYY2KItxomeEQZzz9tdtcYi88T4N5G-gYRrgK6naXZvl0kZiP3xn_Z0fLyXWS6yNr_Ln6DwFPcO8tEbq9g"
     },
     "section7": {
         "title": "Real Applications, Real Teams",

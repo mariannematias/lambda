@@ -105,6 +105,9 @@ h1.section-head {
 .btn-md:hover {
     opacity: .8;
 }
+.banner {
+    min-height:100vh;
+}
 .banner-img {
     position: absolute;
     top: 0px;
@@ -151,7 +154,6 @@ h1.section-head {
 
 /*** Sections ***/
 .section1 {
-    margin-top: 13rem;
     background-image: linear-gradient(150deg, #002566 0%, #012A78 100%);
     padding: 9rem 100px;
 }
@@ -247,9 +249,44 @@ h1.section-head {
 }
 .section4 {
     background-color: #bb1333;
+    position: relative;
 }
 .section4 .section-title img {
     width: 50px;
+}
+.section4 .icons-left {
+    position: relative;
+    z-index: 2;
+}
+.section4 .icons-left img {
+    box-shadow: rgba(0, 0, 0, 0.11) 0px 8px 8px;
+    border-radius: 10px;
+    width: 120px;
+}
+.section4 .icons-left .img1 {
+    width: 119px;
+    height: 125px;
+    margin-bottom: 2rem;
+}
+.section4 .icons-left .img2 {
+    width: 150px;
+    height: 197px;
+    margin-top: 3rem;
+}
+.section4 .icons-left .img3 {
+    width: 167px;
+    height: 166px;
+}
+.section4 .section4-bg {
+    background-color: rgb(255, 255, 255);
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 50%;
+    left: 150px;
+    opacity: 0.1;
+    z-index: 0;
+    transform: skew(-25deg);
 }
 .white-font {
     color: #fff;
@@ -294,19 +331,21 @@ h1.section-head {
 .section6 .left-img {
     display: inline-block;
     position: absolute;
-    width: auto;
+    width: 680px;
     transform: rotate(-65deg);
-    transform-origin: 0% 81%;
+    transform-origin: 0% 111%;
+    opacity: .3;
 }
 .section6 .right-img {
     display: inline-block;
     position: absolute;
-    width: auto;
+    width: 680px;
     z-index: 6;
     top: 31%;
-    right: -213px;
+    right: -321px;
     transform: rotate(-65deg);
-    transform-origin: 50% 50%;
+    transform-origin: 50% 130%;
+    opacity: .3;
 }
 .section7 {
     padding-right: 100px;
@@ -423,18 +462,6 @@ footer p span {
 }
 
 
-@media (max-width: 1320px) {
-    .section1 {
-        margin-top: 7.7rem;
-    }
-}
-
-@media (max-width: 1104px) {
-    .section1 {
-        margin-top: 5.9rem;
-    }
-}
-
 @media (max-width: 1024px) {
     .banner {
         position: relative;
@@ -442,29 +469,21 @@ footer p span {
         height: 100%;
         z-index: 1;
     }
-    .section1 {
-        margin-top: 0;
-    }
     .section2 .img-text {
         margin-left: 0;
     }
 }
 
-@media (max-width: 965px) {
-    .section1 {
-        margin-top: 2.5rem;
-    }
-}
-
 @media (max-width: 768px) {
-    .section1 {
-        margin-top: 0;
-    }
     .banner-img::before {
         opacity: 0.2;
     }
     .section1 .list {
-        padding: 0 1rem;
+        padding: 0 8rem 1rem;
+    }
+    .section3 {
+        padding: 0 100px 8rem;
+        position: relative;
     }
     .section2 .img-text {
         width: 290px;
@@ -486,5 +505,67 @@ footer p span {
     .section6 .section-sub {
         width: 100%;
     }
+    .section1 {
+        padding: 9rem 50px;
+    }
+    .section4 .icons-left {
+        margin-top: 3.5rem;
+        padding-right: 2rem;
+    }
+    .section4 .icons-left .img1,
+    .section4 .icons-left .img2,
+    .section4 .icons-left .img3 {
+        width: 100%;
+        height: auto;
+    }
+    h1.section-head {
+        line-height: 3rem;
+        font-size: 2rem;
+    }
+    .section7 {
+        padding: 8rem 100px;
+        text-align: center;
+    }
+    .section7 .section-title {
+        position: relative;
+        z-index: 6;
+    }
+    .section7-left ul {
+        top: 10%;
+        right: 10%;
+    }
+    .section8 .section-sub {
+        width: 95%;
+    }
+    .section-box {
+        margin-bottom: 1rem;
+    }
+}
 
+@media (max-width: 576px) {
+    footer .container {
+        padding: 0;
+    }
+    .container {
+        padding: 0 2rem;
+    }
+    .section1 .list {
+        padding: 0 1rem;
+    }
+    .section3 {
+        padding: 0 1rem 8rem;
+    }
+    .section4 .icons-left {
+        display: none;
+    }
+    .section7 {
+        padding: 8rem 2rem;
+        text-align: center;
+    }
+    .section-list {
+        width: 100%;
+    }
+    .section-box h4 {
+        width: 100%;
+    }
 }

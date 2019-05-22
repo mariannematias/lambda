@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+	{{>head}}
+    <link href="/css/blog.css" rel="stylesheet">
+  	</head>
+
+	<body>
+
+		{{>header}}
+
+        <div class="container-post m-top-4">
+            <h2>Newest Posts</h2>
+
+            <div class="posts m-top-4">
+                {{#posts}}
+                    <div class="post">
+                        <p>{{dateString}}</p>
+                        <p><a href="/post/{{slug}}"><img src="{{{image}}}=s1024"/></a></p>
+                        <h4><a href="/post/{{slug}}" class="black-font">{{title}}</a></h4>
+                        <p>{{preview}}</p>
+                    </div>
+                {{/posts}}
+            </div>
+        </div>
+
+        {{>footer}}
+
+		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
+    	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
+		{{>scripts}}
+	</body>
+</html>
