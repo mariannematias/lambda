@@ -11,11 +11,11 @@ router.get('/', (req, res) => {
 	turbo.pageConfig('home', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
 	.then(homeConfig => {
 		data['page'] = homeConfig
-		let ctr = new controllers.post()
+		let ctr = new controllers.service()
 		return ctr.get()
 	})
-	.then(posts => {
-		data['posts'] = posts
+	.then(services => {
+		data['services'] = services
 		return turbo.currentApp(process.env.TURBO_ENV)
 	})
 	.then(site => {

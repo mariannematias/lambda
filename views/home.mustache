@@ -14,7 +14,7 @@
 						<div class="col-lg-5 col-md-8 col-sm-12 section-title">
 							<h1 class="section-head black-font m-top-4">{{page.hero_section.title}}</h1>
 							<p class="section-sub m-top-1">{{page.hero_section.description}}</p>
-							<p><a href="#"><button class="btn btn-md" style="background-color: {{page.hero_section.btn_color}}">{{page.hero_section.btn_text}}</button></a>
+							<p><a href="#register" class="register-btn"><button class="btn btn-md" style="background-color: {{page.hero_section.btn_color}}">{{page.hero_section.btn_text}}</button></a>
 						</div>
 					</div>
 					<div class="banner-img">
@@ -25,7 +25,7 @@
 			</div>
 		</div>
 
-		<section class="section1">
+		<section class="section1" id="section1">
 			<div class="row">
 				<div class="col-lg-4 col-md-12 col-sm-12 list align-center" data-aos="zoom-in" data-aos-duration="800">
 					<img src="{{{page.section1.lists.list1.img_list}}}">
@@ -45,12 +45,12 @@
 			</div>
 		</section>
 
-		<section class="section2">
+		<section class="section2" id="section2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 align-center">
-						<div class="img-text" style="background-image: url({{{page.section2.img_section}}})">
-							<p class="text-overlay">"{{page.section2.img_text}}"<span>— Joram Clervius, Full Stack Web Track</span></p>
+						<div class="img-text" style="background-image: url({{{page.section2.img_section}}}=s720)">
+							<p class="text-overlay">"{{page.section2.text}}"<span>— Joram Clervius, Full Stack Web Track</span></p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 section-title">
@@ -62,7 +62,7 @@
 			<div class="section2-bg"></div>
 		</section>
 
-		<section class="section3">
+		<section class="section3" id="section3">
 			<div class="row">
 				<div class="col-lg-5 order-lg-1 col-md-12 order-md-2 col-sm-12 section-title">
 					<h1 class="section-head black-font m-top-4">{{page.section3.title}}</h1>
@@ -75,17 +75,17 @@
 			<div class="section3-bg"></div>
 		</section>
 
-		<section class="section4 m-pad-8">
+		<section class="section4 m-pad-8" id="section4">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-4 offset-lg-1 col-md-5 col-sm-12 icons-left">
 						<div class="row">
 							<div class="col-lg-8 col-md-6 col-sm-12 align-right">
-								<img class="img2" src="{{{page.section4.img_list.img1}}}" data-aos="fade-down" data-aos-duration="1000"/>
+								<img class="img2" src="{{{page.section4.img_list.img_1}}}" data-aos="fade-down" data-aos-duration="1000"/>
 							</div>
 							<div class="col-lg-4 col-md-6 col-sm-12">
-								<img class="img1" src="{{{page.section4.img_list.img2}}}" data-aos="fade-down" data-aos-duration="1200"/>
-								<img class="img3" src="{{{page.section4.img_list.img3}}}" data-aos="fade-down" data-aos-duration="1400"/>
+								<img class="img1" src="{{{page.section4.img_list.img_2}}}" data-aos="fade-down" data-aos-duration="1200"/>
+								<img class="img3" src="{{{page.section4.img_list.img_3}}}" data-aos="fade-down" data-aos-duration="1400"/>
 							</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@
 			<div class="section4-bg"></div>
 		</section>
 
-		<section class="section5 m-pad-8">
+		<section class="section5 m-pad-8" id="section5">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-5 col-md-9 col-sm-12 section-title">
@@ -111,7 +111,7 @@
 			<div class="section5-bg"></div>
 		</section>
 
-		<section class="section6 m-pad-8">
+		<section class="section6 m-pad-8" id="section6">
 			<div class="container">
 				<div class="align-center section-title">
 					<h1 class="section-head black-font m-top-1">{{page.section6.title}}</h1>
@@ -122,14 +122,14 @@
 			</div>
 		</section>
 
-		<section class="section7 m-pad-8">
+		<section class="section7 m-pad-8" id="section7">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-1 col-md-12 col-sm-12 section7-left">
 					<div class="code-img"><img src="{{{page.section7.img_section}}}"/></div>
 					<ul>
-						<li><img src="{{{page.section7.img_member.img1}}}" data-aos="zoom-in" data-aos-duration="1000"/></li>
-						<li><img src="{{{page.section7.img_member.img2}}}" data-aos="zoom-in" data-aos-duration="1100"/></li>
-						<li><img src="{{{page.section7.img_member.img3}}}" data-aos="zoom-in" data-aos-duration="1200"/></li>
+						<li><img src="{{{page.section7.img_member.img_1}}}" data-aos="zoom-in" data-aos-duration="1000"/></li>
+						<li><img src="{{{page.section7.img_member.img_2}}}" data-aos="zoom-in" data-aos-duration="1100"/></li>
+						<li><img src="{{{page.section7.img_member.img_3}}}" data-aos="zoom-in" data-aos-duration="1200"/></li>
 					</ul>
 				</div>
 				<div class="col-lg-5 col-md-12 col-sm-12 section-title">
@@ -140,59 +140,47 @@
 			<div class="section7-bg"></div>
 		</section>
 
-		<section class="section8 m-pad-8">
+		<section class="section8 m-pad-8" id="section8">
 			<div class="container">
 				<div class="align-center">
 					<h1 class="section-head white-font m-top-1">{{page.section8.title}}</h1>
 					<p class="section-sub m-top-1">{{page.section8.description}}</p>
 				</div>
 				<div class="row m-top-4 section-list">
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="section-box">
-							<h4 class="white-font align-center">{{page.section8.lists.list1.title}}</h4>
-							<p>{{page.section8.lists.list1.payment}}</p>
-							<ul>
-								<li>{{page.section8.lists.list1.payment1}}</li>
-								<li>{{page.section8.lists.list1.payment2}}</li>
-							</ul>
-							<p>{{page.section8.lists.list1.sched}}</p>
-							<p>{{page.section8.lists.list1.topics}}</p>
-							<p>{{page.section8.lists.list1.time}}</p>
-							<p>{{page.section8.lists.list1.date}}</p>
+					{{#services}}
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<div class="section-box">
+								<h4 class="white-font align-center">{{name}}</h4>
+								<p>{{fee}}</p>
+								<p>{{{description}}}</p>
+							</div>
 						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="section-box">
-							<h4 class="white-font align-center">{{page.section8.lists.list2.title}}</h4>
-							<p>{{page.section8.lists.list2.payment}}</p>
-							<ul>
-								<li>{{page.section8.lists.list2.payment1}}</li>
-								<li>{{page.section8.lists.list2.payment2}}</li>
-							</ul>
-							<p>{{page.section8.lists.list2.sched}}</p>
-							<p>{{page.section8.lists.list2.topics}}</p>
-							<p>{{page.section8.lists.list2.time}}</p>
-							<p>{{page.section8.lists.list2.date}}</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-12 col-sm-12">
-						<div class="section-box">
-							<h4 class="white-font align-center">{{page.section8.lists.list3.title}}</h4>
-							<p>{{page.section8.lists.list3.payment}}</p>
-							<ul>
-								<li>{{page.section8.lists.list3.payment1}}</li>
-								<li>{{page.section8.lists.list3.payment2}}</li>
-							</ul>
-							<p>{{page.section8.lists.list3.sched}}</p>
-							<p>{{page.section8.lists.list3.topics}}</p>
-							<p>{{page.section8.lists.list3.time}}</p>
-							<p>{{page.section8.lists.list3.date}}</p>
-						</div>
-					</div>
+					{{/services}}
 				</div>
 			</div>
 			<div class="section8-bg"></div>
 		</section>
+
+		<section class="align-center register-form m-pad-8" id="register">
+            <div class="container register row">
+                <form id="edd_register_form" class="edd_form">
+                    <fieldset>
+                        <h1 class="section-head black-font m-top-1">Register</h1>
+						<p class="section-sub m-top-1">Lorem ipsum dolor sit amet consectetur adipiscing elit quae cum dixisset finem ille.</p>          
+                        <p class="divider"><span></span></p>
+                        <p>
+                            <input id="edd-user-login" class="required edd-input" type="text" name="edd_user_login" placeholder="USERNAME">
+                        </p>
+                        <p>
+                            <input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
+                        </p>
+                        <p>
+                            <input class="button" name="edd_register_submit" type="submit" value="Register">
+                        </p>
+				    </fieldset>
+                </form>
+			</div>
+        </section>
 
 		{{>footer}}
 

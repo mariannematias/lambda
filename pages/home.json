@@ -27,8 +27,8 @@
     "section2": {
         "title": "An Education That Banks On You",
         "description": "We believe that education should invest in you, not the other way around. As a Lambda student, you pay nothing until you’re earning $50k or more. And if you don’t, it’s free.",
-        "img_section": "https://lh3.googleusercontent.com/yawySere2799_ZyG26g9T7ns_dX1OL0aDpTPe_gqgLl4x2pTVIwCUfN-iIvKSH_4bex5VyIuyPRle3HynA5fkolQfpI=s720",
-        "img_text": "I never thought I was the type that could land a high-paying tech job, but I just accepted a high-paying job as a software engineer. And I haven’t paid Lambda School anything so far."
+        "img_section": "https://lh3.googleusercontent.com/yawySere2799_ZyG26g9T7ns_dX1OL0aDpTPe_gqgLl4x2pTVIwCUfN-iIvKSH_4bex5VyIuyPRle3HynA5fkolQfpI",
+        "text": "I never thought I was the type that could land a high-paying tech job, but I just accepted a high-paying job as a software engineer. And I haven’t paid Lambda School anything so far."
     },
     "section3": {
         "title": "Lambda, Live From Anywhere",
@@ -37,9 +37,9 @@
     },
     "section4": {
         "img_list": {
-            "img1": "https://lh3.googleusercontent.com/a-wSxUUZD1LAkaQI_YhK69ra_4GyZIfpWxc5R72asLmZmr7Y0vL4DFOsLwP8yG4rluD-j0IDtNfq2ITYk3Pynxzu5Q",
-            "img2": "https://lh3.googleusercontent.com/28PSOolr_9Yl6rhuKe4AtbL0WQFF7Uhnm5gTpBtHvqyf62NFDUEVerznI43o7LU4b-AOXlyouN3bgboN9mvqHEgk",
-            "img3": "https://lh3.googleusercontent.com/a1rdpAxUs0ZmIYFCS3Gh-_8IT74hbqO7fnDMbXW2SfGxLXguZyJ1JjbztqECUxHt7UV5C1kY4G80OJy0VEAvOKxTYQQ"
+            "img_1": "https://lh3.googleusercontent.com/a-wSxUUZD1LAkaQI_YhK69ra_4GyZIfpWxc5R72asLmZmr7Y0vL4DFOsLwP8yG4rluD-j0IDtNfq2ITYk3Pynxzu5Q",
+            "img_2": "https://lh3.googleusercontent.com/28PSOolr_9Yl6rhuKe4AtbL0WQFF7Uhnm5gTpBtHvqyf62NFDUEVerznI43o7LU4b-AOXlyouN3bgboN9mvqHEgk",
+            "img_3": "https://lh3.googleusercontent.com/a1rdpAxUs0ZmIYFCS3Gh-_8IT74hbqO7fnDMbXW2SfGxLXguZyJ1JjbztqECUxHt7UV5C1kY4G80OJy0VEAvOKxTYQQ"
         },
         "img_icon1": "https://lh3.googleusercontent.com/KkNXMQADNRIN6M1cs_Fo9kHAwGs4VrJ4pWBUNxPmWWJq-i4-OWOiXPRMdFq43YmtsDb1dqLW8-cOhDXOAHNwzQ3tMaE",
         "title": "Not Your Average Instructors. Not Your Average Students.",
@@ -59,45 +59,13 @@
         "description": "You'll build production-ready applications on actual software development teams, simulating and training for the environment you'll have when you enter the workforce. When you land that job you'll show up ready to ship code on day one.",
         "img_section": "https://lh3.googleusercontent.com/x5lOLC-FVAGw3m652-v4GXag_i3oNUbZ-BZVXf93wHSv_k1_cO5yYfpasEk-239NV0XgV7suIx5MTVjdRhfRtw5_HQ",
         "img_member": {
-            "img1": "https://lh3.googleusercontent.com/G61bvpZgKWQLbaSYBSpGwoXKeIcQJQO7qL2MLjPuIZyFYzA-hp_RylfhtcvqS-FBzObo6g0IQT6QqKDs0bVBYURT",
-            "img2": "https://lh3.googleusercontent.com/j_Wu8yX2euFYMPKsEoJsFLhQD2wGIwO57wUuIFCsm02-TPlBKVOvqs4akK6mydYsWS8jcewiJphALttY-tdSMSr01A",
-            "img3": "https://lh3.googleusercontent.com/cT9vQ4ljs_Cpf6xE2eFwScrYIc1b4tCxQEUfyKmZ6iuVJaMZp8lwMbE-wd1AMXR8QOE74ITJSQSMiV1imS6zncIo"
+            "img_1": "https://lh3.googleusercontent.com/G61bvpZgKWQLbaSYBSpGwoXKeIcQJQO7qL2MLjPuIZyFYzA-hp_RylfhtcvqS-FBzObo6g0IQT6QqKDs0bVBYURT",
+            "img_2": "https://lh3.googleusercontent.com/j_Wu8yX2euFYMPKsEoJsFLhQD2wGIwO57wUuIFCsm02-TPlBKVOvqs4akK6mydYsWS8jcewiJphALttY-tdSMSr01A",
+            "img_3": "https://lh3.googleusercontent.com/cT9vQ4ljs_Cpf6xE2eFwScrYIc1b4tCxQEUfyKmZ6iuVJaMZp8lwMbE-wd1AMXR8QOE74ITJSQSMiV1imS6zncIo"
         }
     },
     "section8": {
         "title": "Lambda School Tracks",
-        "description": "Lambda School invests in you by training you for the careers of the future at no up-front cost.",
-        "lists": {
-            "list1": {
-                "title": "Full-Stack Web & Computer Science",
-                "payment": "Payment Options:",
-                "payment1": "$0 up-front + 17% of income for two years (only if you're making $50k+)",
-                "payment2": "$20k up-front + no income-based repayment",
-                "sched": "Schedule: Monday-Friday 8 a.m. to 5 p.m. Pacific",
-                "topics": "Topics: Software engineering, web development and computer science",
-                "time": "Duration: 9 months",
-                "date": "Start Dates: July 8th, August 12th, September 16th"
-            },
-            "list2": {
-                "title": "iOS Development & Computer Science",
-                "payment": "Payment Options:",
-                "payment1": "$0 up-front + 17% of income for two years (only if you're making $50k+)",
-                "payment2": "$20k up-front + no income-based repayment",
-                "sched": "Schedule: Monday-Friday 8 a.m. to 5 p.m. Pacific",
-                "topics": "Topics: Software engineering, web development and computer science",
-                "time": "Duration: 9 months",
-                "date": "Start Dates: July 8th, August 12th, September 16th"
-            },
-            "list3": {
-                "title": "UX Design",
-                "payment": "Payment Options:",
-                "payment1": "$0 up-front + 17% of income for two years (only if you're making $50k+)",
-                "payment2": "$20k up-front + no income-based repayment",
-                "sched": "Schedule: Monday-Friday 8 a.m. to 5 p.m. Pacific",
-                "topics": "Topics: Software engineering, web development and computer science",
-                "time": "Duration: 9 months",
-                "date": "Start Dates: July 8th, August 12th, September 16th"
-            }
-        }
+        "description": "Lambda School invests in you by training you for the careers of the future at no up-front cost."
     }
 }
