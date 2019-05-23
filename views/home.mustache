@@ -4,7 +4,7 @@
   	</head>
 
 	<body>
-
+	<div id="vertex-container">
 		<div class="banner">
 			{{>header}}
 
@@ -17,7 +17,7 @@
 							<p><a href="#register" class="register-btn"><button class="btn btn-md" style="background-color: {{page.hero_section.btn_color}}">{{page.hero_section.btn_text}}</button></a>
 						</div>
 					</div>
-					<div class="banner-img">
+					<div class="banner-img" style="background-image: url('{{{page.hero_section.img_hero}}}=s1020');">
 						<div class="left"></div>
 						<div class="right"></div>
 					</div>
@@ -186,7 +186,7 @@
         </section>
 
 		{{>footer}}
-
+		</div>
 		<script>
 			window.__PRELOADED__ = {{{preloaded}}}
 		</script>

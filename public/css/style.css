@@ -116,6 +116,8 @@ h1.section-head {
     right: 0px;
     z-index: -1;
     overflow: hidden;
+    background-size: contain;
+    background-position: right;
 }
 .banner-img::before {
     z-index: -1;
@@ -124,7 +126,6 @@ h1.section-head {
     position: absolute;
     right: 0px;
     content: " ";
-    background-image: url(../images/bg.jpg);
     background-size: cover;
     opacity: 1;
     background-repeat: no-repeat;

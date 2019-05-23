@@ -3,7 +3,8 @@
         "title": "A Revolutionary New School That Invests in You",
         "description": "Lambda School is a 9 month, immersive program that gives you the tools and training you need to launch your new career—from the comfort of your own home.",
         "btn_text": "See how it works",
-        "btn_color": "darkred"
+        "btn_color": "darkred",
+        "img_hero": "https://lh3.googleusercontent.com/iTfUgdVopTCj-EFERq7q97B4b5rFo6le9_4ALEhWWhWX6V8M1Ib5uMrkiEdUvKhpuXQGrWUSBdg4qPh3tF-CPzrz"
     },
     "section1": {
         "lists": {
