@@ -312,12 +312,9 @@ h1.section-head {
 .section8 {
     background-image: linear-gradient(150deg, #22292C 0%, #262D30 100%);
 }
-.section5 .section-head {
-    width: 80%;
-}
 .section5 .section-sub {
     color: #c3cee9;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .section6 .section-sub {
     width: 56%;

@@ -2,21 +2,16 @@
     "site_name": "Lambda",
     "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
     "img_logo": "https://lh3.googleusercontent.com/Vehm-9EUP9wYwE6Fvoq5CyInZ5P25_cD-oxyaXJT8gh3mpxTtjhkMmLBnZVeA-HVuMgOs5ANhqczu83w7IeiAHGB4A",
+    "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
     "header_nav": {
-        "courses": {
-            "text": "Courses"
-        },
-        "about": {
-            "text": "About"
-        },
-        "employers": {
-            "text": "Employers"
+        "home": {
+            "text": "Home"
         },
         "blog": {
             "text": "Blog"
         },
-        "apply": {
-            "text": "Apply Now"
+        "service": {
+            "text": "Services"
         }
     },
     "footer": {

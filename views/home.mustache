@@ -102,7 +102,7 @@
 		<section class="section5 m-pad-8" id="section5">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-5 col-md-9 col-sm-12 section-title">
+					<div class="col-lg-8 offset-lg-2 col-md-9 col-sm-12 section-title align-center">
 						<h1 class="section-head white-font m-top-1">{{page.section5.title}}</h1>
 						<p class="section-sub m-top-1">{{page.section5.description}}</p>
 					</div>
@@ -169,13 +169,16 @@
 						<p class="section-sub m-top-1">Lorem ipsum dolor sit amet consectetur adipiscing elit quae cum dixisset finem ille.</p>          
                         <p class="divider"><span></span></p>
                         <p>
-                            <input id="edd-user-login" class="required edd-input" type="text" name="edd_user_login" placeholder="USERNAME">
+                            <input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
+                        </p>
+						<p>
+                            <input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
                         </p>
                         <p>
                             <input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
                         </p>
                         <p>
-                            <input class="button" name="edd_register_submit" type="submit" value="Register">
+                            <button id="btn-register" class="button" name="edd_register_submit">Register</button>
                         </p>
 				    </fieldset>
                 </form>
@@ -184,8 +187,12 @@
 
 		{{>footer}}
 
+		<script>
+			window.__PRELOADED__ = {{{preloaded}}}
+		</script>
 		<!-- Vertex library for enabling site updates from https://www.vertex360.co -->
     	<script type="text/javascript" src="https://cdn.turbo360-dev.com/dist/vertex.min.js"></script>
 		{{>scripts}}
+		
 	</body>
 </html>
