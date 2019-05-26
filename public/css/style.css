@@ -424,6 +424,13 @@ h1.section-head {
     margin-bottom: 2rem;
     height: 65px;
 }
+.section-box h4 a,
+.section-box h4 a:hover {
+    color: #fff;
+}
+.section-box .btn-md {
+    padding: .5rem 2rem;
+}
 .section-box ul {
     padding-left: 2rem;
 }
@@ -435,18 +442,25 @@ h1.section-head {
     margin: auto;
     position: relative;
 }
+.register .form-box {
+    background: #1b2023;
+    padding: 3rem 3rem 2.3rem;
+    border-radius: 3px;
+    width: 85%;
+    margin: 3rem auto 0;
+}
 .register-form p input {
     color: #7d91a5;
     font-size: 16px;
-    width: 350px;
+    width: 420px;
     border-radius: 4px;
     box-shadow: none;
     -webkit-appearance: none;
     appearance: none;
     text-align: center;
-    padding: 16px;
+    padding: 12px;
     border: 0;
-    background: #181f22;
+    background: #fff;
     transition: none;
 }
 #edd-user-login {
@@ -456,9 +470,9 @@ h1.section-head {
     color: #fff;
     background: #bb1333;
     border: 0;
-    width: 350px;
-    padding: 18px 50px 17px;
-    border-radius: 50px;
+    width: 420px;
+    padding: 12px;
+    border-radius: 3px;
     text-transform: uppercase;
     letter-spacing: 1px;
 }

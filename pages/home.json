@@ -23,18 +23,22 @@
                 "title": "Pay Nothing Until You Make It",
                 "subtitle": "No loans, no debt, and no up-front tuition. You'll pay a percentage of income after you're hired, but only if you're making at least $50k/year."
             }
-        }
+        },
+        "show_or_hide": true
     },
     "section2": {
         "title": "An Education That Banks On You",
         "description": "We believe that education should invest in you, not the other way around. As a Lambda student, you pay nothing until you’re earning $50k or more. And if you don’t, it’s free.",
         "img_section": "https://lh3.googleusercontent.com/yawySere2799_ZyG26g9T7ns_dX1OL0aDpTPe_gqgLl4x2pTVIwCUfN-iIvKSH_4bex5VyIuyPRle3HynA5fkolQfpI",
-        "text": "I never thought I was the type that could land a high-paying tech job, but I just accepted a high-paying job as a software engineer. And I haven’t paid Lambda School anything so far."
+        "text": "I never thought I was the type that could land a high-paying tech job, but I just accepted a high-paying job as a software engineer. And I haven’t paid Lambda School anything so far.",
+        "name": "Joram Clervius, Full Stack Web Track",
+        "show_or_hide": true
     },
     "section3": {
         "title": "Lambda, Live From Anywhere",
         "description": "Lambda classes happen live, every weekday from 8 a.m. to 5 p.m. Pacific. The rigorous curriculum is designed to provide the real-world, career-oriented skills you'll need in a future career, as well as instant, one-on-one help whenever you need it.",
-        "img_section": "https://storage.turbo360.co/lambda-c7cyas/slack-min.gif"
+        "img_section": "https://storage.turbo360.co/lambda-c7cyas/slack-min.gif",
+        "show_or_hide": true
     },
     "section4": {
         "img_list": {
@@ -44,16 +48,19 @@
         },
         "img_icon1": "https://lh3.googleusercontent.com/KkNXMQADNRIN6M1cs_Fo9kHAwGs4VrJ4pWBUNxPmWWJq-i4-OWOiXPRMdFq43YmtsDb1dqLW8-cOhDXOAHNwzQ3tMaE",
         "title": "Not Your Average Instructors. Not Your Average Students.",
-        "description": "Lambda School's instructional staff hail from the top companies and universities in the world."
+        "description": "Lambda School's instructional staff hail from the top companies and universities in the world.",
+        "show_or_hide": true
     },
     "section5": {
         "title": "Are you an international applicant?",
-        "description": "Lambda School is currently available in the United States and the European Union. If you are interested in being informed when Lambda School is available in your country, please fill out the form at the link below."
+        "description": "Lambda School is currently available in the United States and the European Union. If you are interested in being informed when Lambda School is available in your country, please fill out the form at the link below.",
+        "show_or_hide": true
     },
     "section6": {
         "title": "Meet Some of our Industry Partners",
         "description": "When you succeed, so do we. We partner with some of the best technology companies in the world to advise us on curriculum, help certify our students for graduation from Lambda School, and get warm introductions to our students that are ready for jobs.",
-        "img_logos": "https://lh3.googleusercontent.com/iBZOFRpUKYY2KItxomeEQZzz9tdtcYi88T4N5G-gYRrgK6naXZvl0kZiP3xn_Z0fLyXWS6yNr_Ln6DwFPcO8tEbq9g"
+        "img_logos": "https://lh3.googleusercontent.com/iBZOFRpUKYY2KItxomeEQZzz9tdtcYi88T4N5G-gYRrgK6naXZvl0kZiP3xn_Z0fLyXWS6yNr_Ln6DwFPcO8tEbq9g",
+        "show_or_hide": true
     },
     "section7": {
         "title": "Real Applications, Real Teams",
@@ -63,10 +70,12 @@
             "img_1": "https://lh3.googleusercontent.com/G61bvpZgKWQLbaSYBSpGwoXKeIcQJQO7qL2MLjPuIZyFYzA-hp_RylfhtcvqS-FBzObo6g0IQT6QqKDs0bVBYURT",
             "img_2": "https://lh3.googleusercontent.com/j_Wu8yX2euFYMPKsEoJsFLhQD2wGIwO57wUuIFCsm02-TPlBKVOvqs4akK6mydYsWS8jcewiJphALttY-tdSMSr01A",
             "img_3": "https://lh3.googleusercontent.com/cT9vQ4ljs_Cpf6xE2eFwScrYIc1b4tCxQEUfyKmZ6iuVJaMZp8lwMbE-wd1AMXR8QOE74ITJSQSMiV1imS6zncIo"
-        }
+        },
+        "show_or_hide": true
     },
     "section8": {
         "title": "Lambda School Tracks",
-        "description": "Lambda School invests in you by training you for the careers of the future at no up-front cost."
+        "description": "Lambda School invests in you by training you for the careers of the future at no up-front cost.",
+        "show_or_hide": true
     }
 }

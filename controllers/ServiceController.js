@@ -46,6 +46,9 @@ class ServiceController extends Controller {
 		return new Promise((resolve, reject) => {
 			let payload = null
 
+			if (body.name != null)
+				body['slug'] = vertex.utils.slugVersion(body.name, 6)
+
 			const dateString = vertex.utils.formattedDate() // Tuesday, May 7, 2019
 			const dateParts = dateString.split(', ')
 			body['dateString'] = (dateParts.length==3) ? dateParts[1]+', '+dateParts[2] : dateString

@@ -5,13 +5,16 @@
     "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
     "header_nav": {
         "home": {
-            "text": "Home"
+            "text": "Home",
+            "show_or_hide": true
         },
         "blog": {
-            "text": "Blog"
+            "text": "Blog",
+            "show_or_hide": true
         },
         "service": {
-            "text": "Services"
+            "text": "Services",
+            "show_or_hide": true
         }
     },
     "footer": {

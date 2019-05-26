@@ -83,4 +83,53 @@ router.get('/post/:slug', (req, res) => {
 	})
 })
 
+router.get('/services', (req, res) => {
+	const data = {cdn: CDN}
+
+	let ctr = new controllers.service()
+	ctr.get()
+	.then(services => {
+		data['services'] = services
+		return turbo.currentApp(process.env.TURBO_ENV)
+	})
+	.then(site => {
+		data['site'] = site
+		data['global'] = site.globalConfig
+		res.render('services', data)
+	})
+	.catch(err => {
+		res.json({
+			confirmation: 'fail',
+			message: err.message
+		})
+	})
+})
+
+router.get('/service/:slug', (req, res) => {
+	const data = {cdn: CDN}
+
+	let ctr = new controllers.service()
+	ctr.get({slug:req.params.slug})
+	.then(services => {
+		if (services.length == 0){
+			throw new Error('Post '+req.params.slug+' not found.')
+			return
+		}
+
+		data['service'] = services[0]
+		return turbo.currentApp(process.env.TURBO_ENV)
+	})
+	.then(site => {
+		data['site'] = site
+		data['global'] = site.globalConfig
+		res.render('service', data)
+	})
+	.catch(err => {
+		res.json({
+			confirmation: 'fail',
+			message: err.message
+		})
+	})
+})
+
 module.exports = router

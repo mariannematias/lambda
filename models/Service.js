@@ -12,9 +12,11 @@
 const Document = require('vertex-camo').Document
 const props = {
   name: {type:String, default:'', display:true},
+  preview: {type:String, default:''},
+  slug: {type:String, default:'', immutable:true},
   fee: {type:String, default:''}, // '$50/hour', '$100 per session', etc
   image: {type:String, default:''},
-	description: {type:String, default:''},
+	description: {type:String, default:'', isHtml:true},
 	schema: {type:String, default:'service', immutable:true},
 	dateString: {type:String, default:'', immutable:true},
 	timestamp: {type:Date, default: new Date(), immutable:true}

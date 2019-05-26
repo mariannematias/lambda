@@ -9,7 +9,7 @@
 			{{>header}}
 
 			<div class="container">
-				<section class="hero">
+				<section class="hero" id="hero_section">
 					<div class="row">
 						<div class="col-lg-5 col-md-8 col-sm-12 section-title">
 							<h1 class="section-head black-font m-top-4">{{page.hero_section.title}}</h1>
@@ -25,6 +25,7 @@
 			</div>
 		</div>
 
+		{{#page.section1.show_or_hide}}
 		<section class="section1" id="section1">
 			<div class="row">
 				<div class="col-lg-4 col-md-12 col-sm-12 list align-center" data-aos="zoom-in" data-aos-duration="800">
@@ -44,13 +45,15 @@
 				</div>
 			</div>
 		</section>
+		{{/page.section1.show_or_hide}}
 
+		{{#page.section2.show_or_hide}}
 		<section class="section2" id="section2">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-sm-12 align-center">
 						<div class="img-text" style="background-image: url({{{page.section2.img_section}}}=s720)">
-							<p class="text-overlay">"{{page.section2.text}}"<span>— Joram Clervius, Full Stack Web Track</span></p>
+							<p class="text-overlay">"{{page.section2.text}}"<span>— {{page.section2.name}}</span></p>
 						</div>
 					</div>
 					<div class="col-md-6 col-sm-12 section-title">
@@ -61,7 +64,9 @@
 			</div>
 			<div class="section2-bg"></div>
 		</section>
+		{{/page.section2.show_or_hide}}
 
+		{{#page.section3.show_or_hide}}
 		<section class="section3" id="section3">
 			<div class="row">
 				<div class="col-lg-5 order-lg-1 col-md-12 order-md-2 col-sm-12 section-title">
@@ -74,7 +79,9 @@
 			</div>
 			<div class="section3-bg"></div>
 		</section>
+		{{/page.section3.show_or_hide}}
 
+		{{#page.section4.show_or_hide}}
 		<section class="section4 m-pad-8" id="section4">
 			<div class="container">
 				<div class="row">
@@ -98,7 +105,9 @@
 			</div>
 			<div class="section4-bg"></div>
 		</section>
+		{{/page.section4.show_or_hide}}
 
+		{{#page.section5.show_or_hide}}
 		<section class="section5 m-pad-8" id="section5">
 			<div class="container">
 				<div class="row">
@@ -110,7 +119,9 @@
 			</div>
 			<div class="section5-bg"></div>
 		</section>
+		{{/page.section5.show_or_hide}}
 
+		{{#page.section6.show_or_hide}}
 		<section class="section6 m-pad-8" id="section6">
 			<div class="container">
 				<div class="align-center section-title">
@@ -121,7 +132,9 @@
 				<img class="right-img" src="{{{page.section6.img_logos}}}"/>
 			</div>
 		</section>
+		{{/page.section6.show_or_hide}}
 
+		{{#page.section7.show_or_hide}}
 		<section class="section7 m-pad-8" id="section7">
 			<div class="row">
 				<div class="col-lg-6 offset-lg-1 col-md-12 col-sm-12 section7-left">
@@ -139,7 +152,9 @@
 			</div>
 			<div class="section7-bg"></div>
 		</section>
+		{{/page.section7.show_or_hide}}
 
+		{{#page.section8.show_or_hide}}
 		<section class="section8 m-pad-8" id="section8">
 			<div class="container">
 				<div class="align-center">
@@ -150,9 +165,10 @@
 					{{#services}}
 						<div class="col-lg-4 col-md-12 col-sm-12">
 							<div class="section-box">
-								<h4 class="white-font align-center">{{name}}</h4>
+								<h4 class="white-font align-center"><a href="/service/{{slug}}">{{name}}</a></h4>
 								<p>{{fee}}</p>
 								<p>{{{description}}}</p>
+								<a href="/service/{{slug}}"><button class="btn btn-md" style="background-color: #bb1333">Learn more</button>
 							</div>
 						</div>
 					{{/services}}
@@ -160,6 +176,7 @@
 			</div>
 			<div class="section8-bg"></div>
 		</section>
+		{{/page.section8.show_or_hide}}
 
 		<section class="align-center register-form m-pad-8" id="register">
             <div class="container register row">
@@ -168,18 +185,20 @@
                         <h1 class="section-head black-font m-top-1">Register</h1>
 						<p class="section-sub m-top-1">Lorem ipsum dolor sit amet consectetur adipiscing elit quae cum dixisset finem ille.</p>          
                         <p class="divider"><span></span></p>
-                        <p>
-                            <input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
-                        </p>
-						<p>
-                            <input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
-                        </p>
-                        <p>
-                            <input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
-                        </p>
-                        <p>
-                            <button id="btn-register" class="button" name="edd_register_submit">Register</button>
-                        </p>
+						<div class="form-box">
+							<p>
+								<input id="edd-user-firstName" class="required edd-input" type="text" name="edd_user_login" placeholder="FIRST NAME">
+							</p>
+							<p>
+								<input id="edd-user-lastName" class="required edd-input" type="text" name="edd_user_login" placeholder="LAST NAME">
+							</p>
+							<p>
+								<input id="edd-user-email" class="required edd-input" type="email" name="edd_user_email" placeholder="EMAIL">
+							</p>
+							<p>
+								<button id="btn-register" class="button" name="edd_register_submit">Register</button>
+							</p>
+						</div>
 				    </fieldset>
                 </form>
 			</div>

@@ -9,17 +9,17 @@
 		{{>header}}
 
         <div class="container-post m-top-4">
-            <h2>Newest Posts</h2>
+            <h2>Services</h2>
 
             <div class="posts m-top-4">
-                {{#posts}}
+                {{#services}}
                     <div class="post">
                         <p>{{dateString}}</p>
-                        <p><a href="/post/{{slug}}"><img src="{{{image}}}=s1024"/></a></p>
-                        <h4><a href="/post/{{slug}}" class="black-font">{{title}}</a></h4>
+                        <p><a href="/service/{{slug}}"><img src="{{{image}}}=s1024"/></a></p>
+                        <h4><a href="/service/{{slug}}" class="black-font">{{name}}</a></h4>
                         <p>{{preview}}</p>
                     </div>
-                {{/posts}}
+                {{/services}}
             </div>
         </div>
 

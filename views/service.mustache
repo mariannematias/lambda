@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+	{{>head}}
+    <link href="/css/blog.css" rel="stylesheet">
+  	</head>
+
+	<body>
+        <div class="banner">
+		    {{>header}}
+        
+            <div class="container">
+                <section class="hero" id="hero_section">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-8 col-sm-12 section-title">
+                            <h1 class="section-head black-font m-top-4">{{service.name}}</h1>
+                            <p class="section-sub m-top-1">{{service.preview}}</p>
+                        </div>
+                    </div>
+                    <div class="banner-img" style="background-image: url('{{{service.image}}}=s1020');">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="section1">
+            <div class="container">
+				<div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 section-title">
+						<h1 class="section-head white-font m-top-4">Financial support</h1>
+                        <span class="desc-line"></span>
+                        <div class="desc">
+                            <p class="section-sub white-font m-top-1">Students who are selected for the Lambda School Living Stipend Pilot Program will receive $18,000 USD in monthly payments of $2,000 to cover the nine month program.</p>
+                            <p class="section-sub white-font m-top-1">Upon completion of the program, students will pay 10% of their salary for a five year period once they're making at least $50,000 per year. The max possible payment is capped at $50,000.</p>
+                            <p class="section-sub white-font m-top-1">Currently only students living in and eligible to work in the United States are eligible to apply for the living stipend.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-bg"><div class="img" style="background-image: url('https://lh3.googleusercontent.com/zujsQPx55mQD8S8lHsZhtmgjFkf0vsbVwwCcHcoRx9CBIz8GprXLCZjXOp1NIDqego2dn5Tep8RFKiaZp7Fazw_gOQ=s2040');"></div></div>
+        </section>
+
+        <div class="container-post m-top-4">
+                <div class="post-single">
+                    <div class="content">
+                        {{{service.description}}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{>footer}}
+
+		{{>scripts}}
+	</body>
+</html>

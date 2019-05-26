@@ -10,9 +10,17 @@
             </a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link font-small" href="/">{{global.header_nav.home.text}}</a>
-                <a class="nav-item nav-link font-small" href="/blog">{{global.header_nav.blog.text}}</a>
-                <a class="nav-item nav-link font-small register-btn" href="/#section8">{{global.header_nav.service.text}}</a>       
+                {{#global.header_nav.home.show_or_hide}}
+                    <a class="nav-item nav-link font-small" href="/">{{global.header_nav.home.text}}</a>
+                {{/global.header_nav.home.show_or_hide}}
+
+                {{#global.header_nav.blog.show_or_hide}}
+                    <a class="nav-item nav-link font-small" href="/blog">{{global.header_nav.blog.text}}</a>
+                {{/global.header_nav.blog.show_or_hide}}
+
+                {{#global.header_nav.service.show_or_hide}}
+                    <a class="nav-item nav-link font-small" href="/services">{{global.header_nav.service.text}}</a>
+                {{/global.header_nav.service.show_or_hide}}      
             </div>
         </div>
     </nav> 
