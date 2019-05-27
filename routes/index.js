@@ -108,8 +108,12 @@ router.get('/services', (req, res) => {
 router.get('/service/:slug', (req, res) => {
 	const data = {cdn: CDN}
 
-	let ctr = new controllers.service()
-	ctr.get({slug:req.params.slug})
+	turbo.pageConfig('service', process.env.TURBO_API_KEY, process.env.TURBO_ENV)
+	.then(serviceConfig => {
+		data['page'] = serviceConfig
+		let ctr = new controllers.service()
+		return ctr.get({slug:req.params.slug})
+	})
 	.then(services => {
 		if (services.length == 0){
 			throw new Error('Post '+req.params.slug+' not found.')

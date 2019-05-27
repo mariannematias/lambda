@@ -442,11 +442,14 @@ h1.section-head {
     margin: auto;
     position: relative;
 }
+.register form .section-sub{
+    font-size: 1.2rem;
+}
 .register .form-box {
     background: #1b2023;
     padding: 3rem 3rem 2.3rem;
     border-radius: 3px;
-    width: 85%;
+    width: 75%;
     margin: 3rem auto 0;
 }
 .register-form p input {
