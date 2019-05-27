@@ -17,6 +17,12 @@
             "show_or_hide": true
         }
     },
+    "register": {
+        "title": "Register",
+        "subtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit quae cum dixisset finem ille.",
+        "button_text": "Register",
+        "button_color": "darkred"
+    },
     "footer": {
         "facebook": {
             "name": "facebook",

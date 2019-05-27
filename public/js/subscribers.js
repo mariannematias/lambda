@@ -11,6 +11,8 @@
     if (btnRegister == null) {
         return
     }
+
+    console.log('test')
     $("#btn-register").click(function(e) {
         if(e) {
             e.preventDefault()

@@ -126,6 +126,9 @@ router.get('/service/:slug', (req, res) => {
 	.then(site => {
 		data['site'] = site
 		data['global'] = site.globalConfig
+		data['preloaded'] = JSON.stringify({
+			global: data.global
+		})
 		res.render('service', data)
 	})
 	.catch(err => {
