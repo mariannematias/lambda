@@ -1,7 +1,8 @@
 {
     "site_name": "Lambda",
     "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
-    "img_logo": "https://lh3.googleusercontent.com/Vehm-9EUP9wYwE6Fvoq5CyInZ5P25_cD-oxyaXJT8gh3mpxTtjhkMmLBnZVeA-HVuMgOs5ANhqczu83w7IeiAHGB4A",
+    "img_logo_nav": "https://lh3.googleusercontent.com/VLWmqhB9DB2Lyde7IbMdRY-RUU_yN1aIEYNloM7FcUfrT3HyB8vDrDmby3Yh6hGlJwOUGOEBczbieE2FhUbEgYNhZQ",
+    "img_logo_footer": "https://lh3.googleusercontent.com/AnUiEHgAVGcwBXLUDONNjTew_FQiRgz6NbL1DXYr_1N_C9BrrYmyVF1IAcK7oSRmwBoXzCjbSelhcDvLXV_Pe5qK3mg",
     "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
     "header_nav": {
         "home": {

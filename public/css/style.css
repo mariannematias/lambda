@@ -62,7 +62,7 @@ section {
 
 /*** Navbar ***/
 .logo {
-    width: 50px;
+    width: 160px;
     margin-top: -1rem;
 }
 .navbar {
@@ -520,7 +520,9 @@ footer p span {
     font-size: 1.6rem;
     padding-left: .5rem;
 }
-
+footer .vertex img {
+    width: 160px;
+}
 
 @media (max-width: 1024px) {
     .banner {
